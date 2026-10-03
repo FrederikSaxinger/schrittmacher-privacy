@@ -68,6 +68,14 @@ Lokal auf deinem Gerät, im geschützten Speicher der App:
 
 Es werden **keine** Standortdaten, Kontakte, Mikrofondaten oder Fotos aus deiner Fotomediathek verarbeitet. Es wird **keine Werbe-ID** ausgelesen.
 
+### Freigabe für KI-Werkzeuge (MCP-Server, optional)
+
+In den Einstellungen kannst du einen **MCP-Server** einschalten. Er ist standardmäßig **aus** und wird erst nach deiner ausdrücklichen Bestätigung aktiv. Dann können Programme **in deinem WLAN**, denen du Adresse und Schlüssel gibst – etwa Claude Code auf deinem Mac –, folgende Daten **lesen**: Schritte, Durchschnitte, Jahresbilanz, Gewicht mit Trend und Statistiken, geschätzte Körperzusammensetzung und Körpermaße. **Fortschrittsfotos werden nie freigegeben**, und über den Server lassen sich keine Daten ändern.
+
+- Der Server läuft nur, solange die App geöffnet ist, und jede Anfrage braucht den geheimen Schlüssel.
+- Welche Daten das verbundene Programm abruft und wohin es sie sendet, liegt bei diesem Programm. **Claude Code sendet abgerufene Daten zur Verarbeitung an Anthropic**; dafür gilt die Datenschutzerklärung von Anthropic: <https://www.anthropic.com/legal/privacy>
+- Du kannst den Server jederzeit ausschalten oder einen neuen Schlüssel erzeugen, der alle bisherigen Verbindungen aussperrt.
+
 ## Wo werden die Daten gespeichert?
 
 Ausschließlich **lokal auf deinem iPhone bzw. deiner Apple Watch**. Die App nutzt keine eigene Cloud und keinen Server.
@@ -87,7 +95,7 @@ Nur du. Der Entwickler hat **keinerlei Zugriff** auf deine Daten — es existier
 
 ## Datenweitergabe
 
-Es findet **keine Weitergabe** an Dritte statt. Insbesondere:
+Ohne deine ausdrückliche Freigabe über den MCP-Server (siehe oben) findet **keine Weitergabe** an Dritte statt. Insbesondere:
 
 - keine Werbenetzwerke
 - keine Analytics- oder Crash-Reporting-Dienste
