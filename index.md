@@ -76,6 +76,8 @@ In den Einstellungen kannst du einen **MCP-Server** einschalten. Er ist standard
 - Welche Daten das verbundene Programm abruft und wohin es sie sendet, liegt bei diesem Programm. **Claude Code sendet abgerufene Daten zur Verarbeitung an Anthropic**; dafür gilt die Datenschutzerklärung von Anthropic: <https://www.anthropic.com/legal/privacy>
 - Du kannst den Server jederzeit ausschalten oder einen neuen Schlüssel erzeugen, der alle bisherigen Verbindungen aussperrt.
 
+**Schreibzugriff (optional, separat freizugeben):** Erst nach einer zweiten, eigenen Zustimmung können verbundene Programme Gewicht eintragen (in Apple Health) und von Schrittmacher eingetragene Werte löschen, Körpermaße eintragen und löschen sowie Tagesziel und Zielgewicht setzen. Standardmäßig muss jede einzelne Änderung auf dem iPhone bestätigt werden. Alle Änderungen werden in der App unter „Änderungen durch KI“ protokolliert und lassen sich dort rückgängig machen. Daten anderer Apps, Fotos und Freigaben können nicht verändert werden.
+
 ## Wo werden die Daten gespeichert?
 
 Ausschließlich **lokal auf deinem iPhone bzw. deiner Apple Watch**. Die App nutzt keine eigene Cloud und keinen Server.
