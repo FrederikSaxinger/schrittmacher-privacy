@@ -5,11 +5,12 @@ title: Datenschutzerklärung
 
 # Datenschutzerklärung — Schrittmacher
 
-*Stand: 29. September 2026*
+*Stand: 3. Oktober 2026*
 
 ## Kurzfassung
 
-- **Deine Schritte bleiben auf deinem iPhone und deiner Apple Watch.** Schrittmacher liest sie aus Apple Health und zeigt sie dir an — sie verlassen dein Gerät nie.
+- **Deine Schritte und dein Gewicht bleiben auf deinem iPhone und deiner Apple Watch.** Schrittmacher liest sie aus Apple Health und zeigt sie dir an — sie verlassen dein Gerät nie.
+- **Fortschrittsfotos bleiben nur auf deinem iPhone**, sind mit Face ID geschützt und landen weder in deiner Fotomediathek noch in Backups.
 - **Es gibt keinen Server der App.** Der Entwickler hat keinerlei Zugriff auf deine Daten.
 - **Kein Tracking, keine Analytics, keine Werbung, keine Drittanbieter-SDKs.**
 - **Gesundheitsdaten werden nicht weitergegeben** und nicht für Werbung oder andere Zwecke genutzt.
@@ -25,7 +26,12 @@ E-Mail: [frederik.saxinger@yahoo.de](mailto:frederik.saxinger@yahoo.de)
 
 ### Apple Health (HealthKit)
 
-Mit deiner Erlaubnis **liest** Schrittmacher deine **Schrittzahl** aus Apple Health, um dir Tagesfortschritt, Verlauf, Durchschnitte und Serien anzuzeigen. Andere Gesundheitsdaten werden nicht gelesen.
+Mit deiner Erlaubnis **liest** Schrittmacher aus Apple Health:
+
+- deine **Schrittzahl** — für Tagesfortschritt, Verlauf und Durchschnitte,
+- dein **Körpergewicht** und deine **Größe** — für Gewichtsverlauf, Trend, Veränderungen, BMI und die Prognose zu deinem Zielgewicht. Die Berechtigung dafür wird erst erfragt, wenn du den Bereich „Gewicht“ öffnest.
+
+Andere Gesundheitsdaten werden nicht gelesen.
 
 Wenn du einen **Spaziergang** startest, beginnt die App eine Trainingssitzung („Gehen“). Das ist nötig, damit iOS die App bei gesperrtem iPhone weiterlaufen lässt und die Schrittzahl live aktualisiert werden kann. Dafür fragt iOS nach der Berechtigung, **Trainings zu schreiben**. Die Sitzung wird beim Beenden **verworfen** — es wird **kein Training in Apple Health gespeichert**.
 
@@ -33,15 +39,27 @@ Wenn du einen **Spaziergang** startest, beginnt die App eine Trainingssitzung (�
 
 Während eines Spaziergangs liest die App die Schritte des iPhone-Bewegungssensors (Schrittzähler), damit die Anzeige ohne Verzögerung mitzählt.
 
+### Fortschrittsfotos und Kamera
+
+Im Bereich „Fotos“ kannst du mit der Kamera der App Fortschrittsfotos in vier Posen aufnehmen. Dafür fragt iOS nach der Kamera-Berechtigung.
+
+- Die Fotos werden **ausschließlich im geschützten Speicher der App auf deinem iPhone** abgelegt, sind verschlüsselt, solange das Gerät gesperrt ist, und **von iCloud- und Computer-Backups ausgeschlossen**.
+- Sie werden **nicht** in deiner Fotomediathek gespeichert und **nicht** übertragen.
+- Wenn du die App löschst, werden auch die Fotos gelöscht. Einzelne Aufnahmetage kannst du in der App löschen.
+
+### Face ID
+
+Der Bereich „Fotos“ ist mit **Face ID** (ersatzweise mit deinem Gerätecode) geschützt und sperrt sich, sobald die App in den Hintergrund geht. Die Prüfung übernimmt iOS — Schrittmacher erhält **keinerlei biometrische Daten**, sondern nur die Information, ob die Entsperrung erfolgreich war.
+
 ### In der App gespeichert
 
 Lokal auf deinem Gerät, im geschützten Speicher der App:
 
-- dein Tagesziel und App-Einstellungen
+- dein Tagesziel, dein optionales Zielgewicht und App-Einstellungen
 - die heutige Schrittzahl als Zwischenstand für das Sperrbildschirm-Widget bzw. die Watch-Komplikation (Health-Daten sind bei gesperrtem Gerät verschlüsselt und für Widgets sonst nicht lesbar)
 - ein technisches Protokoll der Spaziergänge (Zeitpunkte, Schrittzahlen, Statusmeldungen) zur Fehlersuche. Es ist auf wenige hundert Kilobyte begrenzt und wird **nicht** übertragen.
 
-Es werden **keine** Standortdaten, Kontakte, Fotos, Mikrofon- oder Kameradaten verarbeitet. Es wird **keine Werbe-ID** ausgelesen.
+Es werden **keine** Standortdaten, Kontakte, Mikrofondaten oder Fotos aus deiner Fotomediathek verarbeitet. Es wird **keine Werbe-ID** ausgelesen.
 
 ## Wo werden die Daten gespeichert?
 
@@ -76,6 +94,8 @@ Daten aus Apple Health werden gemäß den Vorgaben von Apple **nicht** für Werb
 - **Apple Health:** Health-App → Profilbild → *Apps* → *Schrittmacher*
 - **Bewegung & Fitness:** Einstellungen → *Datenschutz & Sicherheit* → *Bewegung & Fitness*
 - **Live-Aktivitäten:** Einstellungen → *Schrittmacher* → *Live-Aktivitäten*
+- **Kamera:** Einstellungen → *Schrittmacher* → *Kamera*
+- **Face ID:** Einstellungen → *Face ID & Code* → *Andere Apps* → *Schrittmacher*
 
 ## Deine Rechte nach DSGVO
 
@@ -83,7 +103,7 @@ Du hast das Recht auf:
 
 - **Auskunft** über deine Daten — alle von der App gespeicherten Daten sind in der App selbst einsehbar; deine Gesundheitsdaten in der Health-App.
 - **Berichtigung** — Schrittdaten verwaltest du in der Health-App.
-- **Löschung** — beim Deinstallieren der App werden alle von ihr gespeicherten Daten entfernt. Deine Gesundheitsdaten bleiben in Apple Health und können dort gelöscht werden.
+- **Löschung** — Fortschrittsfotos kannst du in der App einzeln löschen; beim Deinstallieren der App werden alle von ihr gespeicherten Daten inklusive der Fotos entfernt. Deine Gesundheitsdaten bleiben in Apple Health und können dort gelöscht werden.
 - **Datenübertragbarkeit** — über den Export der Health-App (Profilbild → *Alle Gesundheitsdaten exportieren*).
 - **Beschwerde bei einer Aufsichtsbehörde** (z. B. Österreichische Datenschutzbehörde, <https://www.dsb.gv.at>).
 

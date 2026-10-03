@@ -37,6 +37,12 @@ Nur eine laufende Trainingssitzung erlaubt es der App, bei gesperrtem iPhone wei
 **Das Widget auf dem Sperrbildschirm hinkt hinterher.**
 Bei gesperrtem iPhone sind Health-Daten verschlüsselt. Das Widget zeigt dann den zuletzt bekannten Stand und aktualisiert sich, sobald du das iPhone entsperrst oder die App öffnest. iOS begrenzt außerdem, wie oft Widgets im Hintergrund aktualisiert werden.
 
+**Werden meine Fortschrittsfotos gesichert?**
+Nein — bewusst nicht. Die Fotos bleiben nur auf diesem iPhone und sind von iCloud- und Computer-Backups ausgeschlossen. Beim Gerätewechsel oder beim Löschen der App gehen sie daher verloren.
+
+**Woher kommt mein Gewicht?**
+Aus Apple Health. Trag dein Gewicht in der Health-App ein oder verbinde eine Waage, die nach Health schreibt — Schrittmacher übernimmt die Werte automatisch.
+
 **Die Live-Aktivität erscheint nicht.**
 Prüfe unter Einstellungen → *Schrittmacher*, ob *Live-Aktivitäten* erlaubt sind.
 
