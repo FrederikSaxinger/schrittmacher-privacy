@@ -29,15 +29,22 @@ E-Mail: [frederik.saxinger@yahoo.de](mailto:frederik.saxinger@yahoo.de)
 Mit deiner Erlaubnis **liest** Schrittmacher aus Apple Health:
 
 - deine **Schrittzahl** — für Tagesfortschritt, Verlauf und Durchschnitte,
-- dein **Körpergewicht** und deine **Größe** — für Gewichtsverlauf, Trend, Veränderungen, BMI und die Prognose zu deinem Zielgewicht. Die Berechtigung dafür wird erst erfragt, wenn du den Bereich „Gewicht“ öffnest.
+- dein **Körpergewicht**, deine **Größe** und – falls vorhanden – deinen **Körperfettanteil** — für Gewichtsverlauf, Trend, Veränderungen, BMI, die Prognose zu deinem Zielgewicht und die Körperfett-Schätzung,
+- dein **Geburtsdatum** (nur das daraus berechnete Alter) und dein **biologisches Geschlecht** — ausschließlich für die Formeln der Körperfett-Schätzung.
 
-Andere Gesundheitsdaten werden nicht gelesen.
+Die Berechtigungen für den Gewichtsbereich werden erst erfragt, wenn du den Bereich „Gewicht“ öffnest. Andere Gesundheitsdaten werden nicht gelesen.
+
+Wenn du in der App ein Gewicht einträgst, wird es mit deiner Erlaubnis **in Apple Health gespeichert**. Von Schrittmacher eingetragene Werte kannst du in der App wieder löschen.
 
 Wenn du einen **Spaziergang** startest, beginnt die App eine Trainingssitzung („Gehen“). Das ist nötig, damit iOS die App bei gesperrtem iPhone weiterlaufen lässt und die Schrittzahl live aktualisiert werden kann. Dafür fragt iOS nach der Berechtigung, **Trainings zu schreiben**. Die Sitzung wird beim Beenden **verworfen** — es wird **kein Training in Apple Health gespeichert**.
 
 ### Bewegung & Fitness
 
 Während eines Spaziergangs liest die App die Schritte des iPhone-Bewegungssensors (Schrittzähler), damit die Anzeige ohne Verzögerung mitzählt.
+
+### Körpermaße
+
+Bauch-, Hals- und Hüftumfang, die du eingibst, werden **nur im geschützten Speicher der App** abgelegt (nicht in Apple Health) und für die Schätzung deines Körperfettanteils und das Taille-zu-Größe-Verhältnis verwendet. Ist in Apple Health keine Größe oder kein Geschlecht hinterlegt, kannst du beides in der App angeben; es bleibt ebenfalls nur in der App.
 
 ### Fortschrittsfotos und Kamera
 
@@ -49,13 +56,13 @@ Im Bereich „Fotos“ kannst du mit der Kamera der App Fortschrittsfotos in vie
 
 ### Face ID
 
-Der Bereich „Fotos“ ist mit **Face ID** (ersatzweise mit deinem Gerätecode) geschützt und sperrt sich, sobald die App in den Hintergrund geht. Die Prüfung übernimmt iOS — Schrittmacher erhält **keinerlei biometrische Daten**, sondern nur die Information, ob die Entsperrung erfolgreich war.
+Der Bereich „Fotos“ ist mit **Face ID** (ersatzweise mit deinem Gerätecode) geschützt. Die Abfrage startet erst, wenn du auf „Entsperren“ tippst, und der Bereich sperrt sich, sobald die App in den Hintergrund geht. Die Prüfung übernimmt iOS — Schrittmacher erhält **keinerlei biometrische Daten**, sondern nur die Information, ob die Entsperrung erfolgreich war.
 
 ### In der App gespeichert
 
 Lokal auf deinem Gerät, im geschützten Speicher der App:
 
-- dein Tagesziel, dein optionales Zielgewicht und App-Einstellungen
+- dein Tagesziel, dein optionales Zielgewicht, deine Körpermaße und App-Einstellungen
 - die heutige Schrittzahl als Zwischenstand für das Sperrbildschirm-Widget bzw. die Watch-Komplikation (Health-Daten sind bei gesperrtem Gerät verschlüsselt und für Widgets sonst nicht lesbar)
 - ein technisches Protokoll der Spaziergänge (Zeitpunkte, Schrittzahlen, Statusmeldungen) zur Fehlersuche. Es ist auf wenige hundert Kilobyte begrenzt und wird **nicht** übertragen.
 
