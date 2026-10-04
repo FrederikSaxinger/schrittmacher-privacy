@@ -9,7 +9,7 @@ title: Datenschutzerklärung
 
 ## Kurzfassung
 
-- **Deine Schritte und dein Gewicht bleiben auf deinem iPhone und deiner Apple Watch.** Schrittmacher liest sie aus Apple Health und zeigt sie dir an — sie verlassen dein Gerät nie.
+- **Deine Schritte, dein Gewicht und deine Ernährungsdaten bleiben auf deinem iPhone und deiner Apple Watch.** Schrittmacher liest sie aus Apple Health und zeigt sie dir an — sie verlassen dein Gerät nie.
 - **Fortschrittsfotos bleiben nur auf deinem iPhone**, sind mit Face ID geschützt und landen weder in deiner Fotomediathek noch in Backups.
 - **Es gibt keinen Server der App.** Der Entwickler hat keinerlei Zugriff auf deine Daten.
 - **Kein Tracking, keine Analytics, keine Werbung, keine Drittanbieter-SDKs.**
@@ -32,7 +32,11 @@ Mit deiner Erlaubnis **liest** Schrittmacher aus Apple Health:
 - dein **Körpergewicht**, deine **Größe** und – falls vorhanden – deinen **Körperfettanteil** — für Gewichtsverlauf, Trend, Veränderungen, BMI, die Prognose zu deinem Zielgewicht und die Körperfett-Schätzung,
 - dein **Geburtsdatum** (nur das daraus berechnete Alter) und dein **biologisches Geschlecht** — ausschließlich für die Formeln der Körperfett-Schätzung.
 
-Die Berechtigungen für den Gewichtsbereich werden erst erfragt, wenn du den Bereich „Gewicht“ öffnest. Andere Gesundheitsdaten werden nicht gelesen.
+Die Berechtigungen für den Gewichtsbereich werden erst erfragt, wenn du den Bereich „Gewicht“ öffnest.
+
+Im Bereich **„Kalorien“** liest Schrittmacher – erst nachdem du ihn öffnest und zustimmst – deine **Nahrungsenergie (kcal)** sowie **Eiweiß, Kohlenhydrate und Fett** aus Apple Health, z. B. von einer Ernährungs-App wie YAZIO. Daraus berechnet die App auf dem Gerät Grundumsatz, Erhaltungskalorien, Defizit und Nährwert-Ziele. Mahlzeiten, die du in Schrittmacher einträgst, werden mit deiner Erlaubnis **in Apple Health gespeichert**; nur diese kannst du in der App wieder löschen.
+
+Andere Gesundheitsdaten werden nicht gelesen.
 
 Wenn du in der App ein Gewicht einträgst, wird es mit deiner Erlaubnis **in Apple Health gespeichert**. Von Schrittmacher eingetragene Werte kannst du in der App wieder löschen.
 
@@ -70,13 +74,13 @@ Es werden **keine** Standortdaten, Kontakte, Mikrofondaten oder Fotos aus deiner
 
 ### Freigabe für KI-Werkzeuge (MCP-Server, optional)
 
-In den Einstellungen kannst du einen **MCP-Server** einschalten. Er ist standardmäßig **aus** und wird erst nach deiner ausdrücklichen Bestätigung aktiv. Dann können Programme **in deinem WLAN**, denen du Adresse und Schlüssel gibst – etwa KI-Assistenten wie Claude Code, GitHub Copilot in VS Code oder Cursor auf deinem Mac –, folgende Daten **lesen**: Schritte, Durchschnitte, Jahresbilanz, Gewicht mit Trend und Statistiken, geschätzte Körperzusammensetzung und Körpermaße. **Fortschrittsfotos werden nie freigegeben**, und über den Server lassen sich keine Daten ändern.
+In den Einstellungen kannst du einen **MCP-Server** einschalten. Er ist standardmäßig **aus** und wird erst nach deiner ausdrücklichen Bestätigung aktiv. Dann können Programme **in deinem WLAN**, denen du Adresse und Schlüssel gibst – etwa KI-Assistenten wie Claude Code, GitHub Copilot in VS Code oder Cursor auf deinem Mac –, folgende Daten **lesen**: Schritte, Durchschnitte, Jahresbilanz, Gewicht mit Trend und Statistiken, geschätzte Körperzusammensetzung, Körpermaße sowie Kalorien, Nährwerte, heutige Mahlzeiten und die Energiebilanz. **Fortschrittsfotos werden nie freigegeben**, und über den Server lassen sich keine Daten ändern.
 
 - Der Server läuft nur, solange die App geöffnet ist, und jede Anfrage braucht den geheimen Schlüssel.
 - Welche Daten das verbundene Programm abruft und wohin es sie sendet, liegt bei diesem Programm. **Die meisten KI-Werkzeuge senden abgerufene Daten zur Verarbeitung an ihren Anbieter** (z. B. Anthropic für Claude, GitHub/Microsoft für Copilot, OpenAI für ChatGPT); dafür gilt die Datenschutzerklärung des jeweiligen Anbieters. Nur bei einem lokal laufenden Modell bleiben die Daten auf deinem Rechner.
 - Du kannst den Server jederzeit ausschalten oder einen neuen Schlüssel erzeugen, der alle bisherigen Verbindungen aussperrt.
 
-**Schreibzugriff (optional, separat freizugeben):** Erst nach einer zweiten, eigenen Zustimmung können verbundene Programme Gewicht eintragen (in Apple Health) und von Schrittmacher eingetragene Werte löschen, Körpermaße eintragen und löschen sowie Tagesziel und Zielgewicht setzen. Standardmäßig muss jede einzelne Änderung auf dem iPhone bestätigt werden. Alle Änderungen werden in der App unter „Änderungen durch KI“ protokolliert und lassen sich dort rückgängig machen. Daten anderer Apps, Fotos und Freigaben können nicht verändert werden.
+**Schreibzugriff (optional, separat freizugeben):** Erst nach einer zweiten, eigenen Zustimmung können verbundene Programme Gewicht und Mahlzeiten eintragen (in Apple Health) und von Schrittmacher eingetragene Werte löschen, Körpermaße eintragen und löschen sowie Tagesziel und Zielgewicht setzen. Standardmäßig muss jede einzelne Änderung auf dem iPhone bestätigt werden. Alle Änderungen werden in der App unter „Änderungen durch KI“ protokolliert und lassen sich dort rückgängig machen. Daten anderer Apps, Fotos und Freigaben können nicht verändert werden.
 
 ## Wo werden die Daten gespeichert?
 
