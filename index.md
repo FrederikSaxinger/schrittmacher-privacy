@@ -52,12 +52,12 @@ Bauch-, Hals- und Hüftumfang, die du eingibst, werden **nur im geschützten Spe
 
 ### Fortschrittsfotos und Kamera
 
-Im Bereich „Fotos“ kannst du mit der Kamera der App Fortschrittsfotos in vier Posen aufnehmen. Dafür fragt iOS nach der Kamera-Berechtigung.
+Im Bereich „Fotos“ kannst du mit der Kamera der App Fortschrittsfotos in sechs Posen aufnehmen (vorne, vorne angespannt, links, rechts, hinten, hinten angespannt). Dafür fragt iOS nach der Kamera-Berechtigung.
 
 - Die Fotos werden **ausschließlich im geschützten Speicher der App auf deinem iPhone** abgelegt, sind verschlüsselt, solange das Gerät gesperrt ist, und **von iCloud- und Computer-Backups ausgeschlossen**.
 - Sie werden **nicht** in deiner Fotomediathek gespeichert und **nicht** übertragen.
 - **Hintergrund ausblenden:** Die App stellt dich auf Wunsch frei (wie „Motiv freistellen“ in Fotos). Das erledigt Apples Bilderkennung (Vision) **auf dem iPhone**; die freigestellte Fassung wird wie das Foto geschützt neben dem Original gespeichert und mit ihm gelöscht.
-- Wenn du die App löschst, werden auch die Fotos gelöscht. Einzelne Aufnahmetage kannst du in der App löschen.
+- Wenn du die App löschst, werden auch die Fotos gelöscht. Einzelne Fotos und ganze Aufnahmetage kannst du in der App löschen.
 
 ### Face ID
 
