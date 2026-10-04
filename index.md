@@ -5,7 +5,7 @@ title: Datenschutzerklärung
 
 # Datenschutzerklärung — Schrittmacher
 
-*Stand: 3. Oktober 2026*
+*Stand: 4. Oktober 2026*
 
 ## Kurzfassung
 
@@ -56,6 +56,7 @@ Im Bereich „Fotos“ kannst du mit der Kamera der App Fortschrittsfotos in vie
 
 - Die Fotos werden **ausschließlich im geschützten Speicher der App auf deinem iPhone** abgelegt, sind verschlüsselt, solange das Gerät gesperrt ist, und **von iCloud- und Computer-Backups ausgeschlossen**.
 - Sie werden **nicht** in deiner Fotomediathek gespeichert und **nicht** übertragen.
+- **Hintergrund ausblenden:** Die App stellt dich auf Wunsch frei (wie „Motiv freistellen“ in Fotos). Das erledigt Apples Bilderkennung (Vision) **auf dem iPhone**; die freigestellte Fassung wird wie das Foto geschützt neben dem Original gespeichert und mit ihm gelöscht.
 - Wenn du die App löschst, werden auch die Fotos gelöscht. Einzelne Aufnahmetage kannst du in der App löschen.
 
 ### Face ID
@@ -72,7 +73,9 @@ Lokal auf deinem Gerät, im geschützten Speicher der App:
 
 Es werden **keine** Standortdaten, Kontakte, Mikrofondaten oder Fotos aus deiner Fotomediathek verarbeitet. Es wird **keine Werbe-ID** ausgelesen.
 
-### Freigabe für KI-Werkzeuge (MCP-Server, optional)
+### Freigabe für KI-Werkzeuge (MCP-Server, optional – nur in Testversionen)
+
+*Dieser Abschnitt betrifft nur Testversionen über TestFlight. Die Version im App Store enthält weder den MCP-Server noch den Plan.*
 
 In den Einstellungen kannst du einen **MCP-Server** einschalten. Er ist standardmäßig **aus** und wird erst nach deiner ausdrücklichen Bestätigung aktiv. Dann können Programme **in deinem WLAN**, denen du Adresse und Schlüssel gibst – etwa KI-Assistenten wie Claude Code, GitHub Copilot in VS Code oder Cursor auf deinem Mac –, folgende Daten **lesen**: Schritte, Durchschnitte, Jahresbilanz, Gewicht mit Trend und Statistiken, geschätzte Körperzusammensetzung, Körpermaße sowie Kalorien, Nährwerte, heutige Mahlzeiten und die Energiebilanz. **Fortschrittsfotos werden nie freigegeben**, und über den Server lassen sich keine Daten ändern.
 
@@ -81,6 +84,8 @@ In den Einstellungen kannst du einen **MCP-Server** einschalten. Er ist standard
 - Du kannst den Server jederzeit ausschalten oder einen neuen Schlüssel erzeugen, der alle bisherigen Verbindungen aussperrt.
 
 **Schreibzugriff (optional, separat freizugeben):** Erst nach einer zweiten, eigenen Zustimmung können verbundene Programme Gewicht und Mahlzeiten eintragen (in Apple Health) und von Schrittmacher eingetragene Werte löschen, Körpermaße eintragen und löschen sowie Tagesziel und Zielgewicht setzen. Standardmäßig muss jede einzelne Änderung auf dem iPhone bestätigt werden. Alle Änderungen werden in der App unter „Änderungen durch KI“ protokolliert und lassen sich dort rückgängig machen. Daten anderer Apps, Fotos und Freigaben können nicht verändert werden.
+
+**Plan (optional, nur mit MCP-Server):** Schaltest du den Bereich „Plan“ ein, kann ein verbundener KI-Assistent einen Plan mit Phasen, Kalorienzielen, Tabellen und Diagrammen anlegen. Plan, Kalorienziele, Häkchen, deine **Antworten auf Rückfragen** und deine **Notizen an die KI** werden nur im geschützten Speicher der App gespeichert, samt Versionsverlauf. Antworten und Notizen erhält ein KI-Assistent erst, wenn du ihn wieder verbindest – und dann gilt, wie oben, die Datenschutzerklärung seines Anbieters. Ist eine gespeicherte Datei nach einem Update nicht lesbar, legt die App eine Sicherungskopie daneben an, statt sie zu überschreiben.
 
 ## Wo werden die Daten gespeichert?
 

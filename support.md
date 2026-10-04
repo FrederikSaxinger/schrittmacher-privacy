@@ -43,8 +43,17 @@ Nein — bewusst nicht. Die Fotos bleiben nur auf diesem iPhone und sind von iCl
 **Woher kommt mein Gewicht?**
 Aus Apple Health. Trag dein Gewicht in der Health-App ein oder verbinde eine Waage, die nach Health schreibt — Schrittmacher übernimmt die Werte automatisch.
 
+**Ist Schrittmacher ein Medizinprodukt?**
+Nein. Erhaltung, Kalorienbudget, Körperfett und Prognosen sind Schätzungen aus allgemeinen Formeln und deinen Daten – keine Diagnose und kein Ersatz für ärztlichen Rat. Bei Vorerkrankungen, in der Schwangerschaft oder bei Essstörungen sprich vor einer Diät mit deiner Ärztin oder deinem Arzt.
+
 **Die Live-Aktivität erscheint nicht.**
 Prüfe unter Einstellungen → *Schrittmacher*, ob *Live-Aktivitäten* erlaubt sind.
+
+## Offenlegung
+
+Frederik Saxinger<!-- TODO vor dem Merge nach main: Wohnort (Ort, Österreich) ergänzen – Offenlegung nach § 25 MedienG -->
+E-Mail: [frederik.saxinger@yahoo.de](mailto:frederik.saxinger@yahoo.de)
+Private, kostenlose App ohne Werbung.
 
 ---
 
